@@ -51,6 +51,6 @@ public class PostRepository {
     }
 
     public Post findById(Long id) {
-        return null;
+        return ALL_POSTS.get(Integer.valueOf(Long.toString(id)));
     }
 }
